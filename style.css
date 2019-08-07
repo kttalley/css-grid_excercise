@@ -13,18 +13,32 @@
 }
 
 #first{
-    background-color: rgba(50,255,120);
     width: 100%;
+    background-color: rgba(50,255,120);
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* or */
+    grid-column: 1/3;
 }
 #second{
      background-color: rgba(250,155,20);
-    width: 30%;
+     width: 100%;
+     grid-column: 2/4;
 }
 #third{
     background-color: rgba(50,155,250);
     width: 100%;
+    grid-column: 2/4
 }
 #fourth{
     background-color: rgba(250,65,250);
-    width: 30%;
+    width: 100%;
+}
+#fifth{
+    background-color: rgba(50,55,120);
+    width: 100%;
+}
+#six{
+    background-color: rgba(250,65,50);
+    width: 100%;
 }
